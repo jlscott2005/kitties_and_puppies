@@ -1,7 +1,12 @@
+body {
+  background-color: steelblue;
+}
+
 .container {
   width: 360px;
   height: 228px;
   margin: 0 auto;
+  background-color: lightgray;
 }
 
 .carousel{
@@ -21,7 +26,7 @@
 .frames > li{
   position: relative;
   float:left;
-  width:33.33%; /* 100 / number of frames */
+  width: 33.33%; /* 100 / number of frames */
 }
 .carousel img{
   display:block;
@@ -74,5 +79,22 @@ a#pnext_frame {
 
 #p_carousel {
   visibility: hidden;
+}
+
+h1 {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+.kitty {
+  position: relative;
+  margin-left: 25%;
 }
 
